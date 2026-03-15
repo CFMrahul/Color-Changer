@@ -1,0 +1,100 @@
+/* Reset */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f4f4f4;
+}
+
+/* Main App */
+
+.app{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+/* Card */
+
+.card{
+  width:350px;
+  padding:30px;
+  background:white;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Header */
+
+.header h1{
+  margin-bottom:8px;
+}
+
+.header p{
+  color:gray;
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+/* Color Button Container */
+
+.color-container{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+  margin-bottom:20px;
+}
+
+/* Buttons */
+
+.color-btn{
+  height:70px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+/* Hover effect */
+
+.color-btn:hover{
+  transform:scale(1.05);
+  box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+}
+
+/* Individual Colors */
+
+#orange{
+  background:orange;
+}
+
+#pink{
+  background:pink;
+}
+
+#black{
+  background:black;
+}
+
+#green{
+  background:green;
+}
+
+/* Footer */
+
+.footer{
+  font-size:14px;
+  color:gray;
+}
